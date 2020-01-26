@@ -26,7 +26,8 @@ Approach:
 To understand this, following trial calculation was done.
 1) To check in case the order of applying XOR on a given set of numbers will have any difference or not:
 
-	1 xor 3 xor 7			|			7 xor 3 xor 1			|			1 xor 7 xor 3
-	(001 xor 011)xor 111				(111 xor 011) xor 001				(001 xor 111) xor 011
-	010 xor 111							100 xor 001							110 xor 011
-	101									101									101
+1 xor 3 xor 7 -> (001 xor 011)xor 111 -> 010 xor 111 -> 101												
+
+7 xor 3 xor 1 -> (111 xor 011) xor 001 -> 100 xor 001 -> 101
+
+1 xor 7 xor 3 -> (001 xor 111) xor 011 -> 110 xor 011 -> 101
